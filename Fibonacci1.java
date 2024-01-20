@@ -8,14 +8,16 @@ public class Fibonacci1
 	{
 		int a=0, b=1;
 		
-		System.out.print(a+" "+b);  //printing 0 and 1 
-		int c;
-		for(int i=1;i<=10;i++)     //loop starts from 2 because 0 and 1 are already printed
+//		System.out.print(a+" "+b);  //printing 0 and 1 
+		
+		int c=0;
+		
+		for(int i=1;i<=10;i++)     //( i=1; 1<=10) (i=2;2<=10) 
 		{
-			c=a+b;
-			System.out.print(" "+c);
-			a=b;
-			b=c;
+			c=a+b;  //(c=1 c=2
+			a=b;    //(a=1 a=1
+			b=c;    //(b=1 b=2
+			System.out.print(" "+c);    // (print -1 2
 		}
 	}
 }
