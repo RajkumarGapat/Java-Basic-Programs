@@ -1,6 +1,6 @@
 package JavaCodingInterview;
 import java.util.Scanner;
-public class primeExamole {
+public class primeExample {
 
 	public static void main(String[] args) {
 		int i,m=0,n=0;
