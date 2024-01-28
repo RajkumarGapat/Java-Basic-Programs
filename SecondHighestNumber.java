@@ -1,11 +1,11 @@
 package JavaCodingInterview;
 
 
-	public class AccendingOrder {
+	public class SecondHighestNumber {
 
 	    public static void main(String[] args) {
 	        // Sample array
-	        int[] a = {5, 2, 8, 1, 6};
+	        int[] a = {5, 2, 8, 1, 6,52,20,66,88,44,35};
 
 	        // Sorting the array in ascending order using bubble sort
 	        int n = a.length;
@@ -24,12 +24,9 @@ package JavaCodingInterview;
 	                }
 	            }
 	        }
+	        
+               System.out.println(a[a.length-2]);
 
-	        // Displaying the sorted array
-	        System.out.print("Array in ascending order: ");
-	        for (int k=0;k<=4;k++) 
-	        {
-	            System.out.print(a[k]+" " );
 	        }
 	    }
-	}
+	
