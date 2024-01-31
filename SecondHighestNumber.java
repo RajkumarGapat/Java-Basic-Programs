@@ -5,7 +5,7 @@ package JavaCodingInterview;
 
 	    public static void main(String[] args) {
 	        // Sample array
-	        int[] a = {5, 2, 8, 1, 6,52,20,66,88,44,35};
+	        int[] a = {5, 2, 8, 1, 6};
 
 	        // Sorting the array in ascending order using bubble sort
 	        int n = a.length;
