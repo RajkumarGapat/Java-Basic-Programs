@@ -1,9 +1,10 @@
 package JavaCodingInterview;
 import java.io.File;
 import java.io.IOException;
-public class CreateFile {
-	public static void main(String[] args) {
-		
+public class CreateFile 
+{
+	public static void main(String[] args) 
+	{
 		try
 		{
 			File f=new File("Raj.txt");
