@@ -6,6 +6,6 @@ public class LengthOfArray
 	{
 		int a[] = {10,20,30,40,50};
 		
-		System.out.println(a.length);       // 5 -------> Length variable of array...
+		System.out.println(a.length);       // 5 -------> Length variable of array... and 0 if array is empty
 	}
 }
