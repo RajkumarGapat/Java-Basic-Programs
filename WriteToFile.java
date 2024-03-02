@@ -7,7 +7,7 @@ public class WriteToFile {
 		
 		try
 		{
-			FileWriter fw=new FileWriter("Raj.txt");
+			//FileWriter fw=new FileWriter("Raj.txt");
 			fw.write("Heloo guys I'm Raj!");
 			fw.close();
 			System.out.println("Successfully wrote to the file.");
